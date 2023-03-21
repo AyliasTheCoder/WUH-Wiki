@@ -9,7 +9,7 @@ if (!fs.existsSync(dir)) {
 }
 
 express()
-  .use(vhost("taskify.*", require("./subdomains/taskify.js").app))
-  .use(vhost("home.*", require("./subdomains/home.js").app))
-  .use(vhost("wuh.*", require("./subdomains/wuh.js").app))
+  .use(vhost("wuh.localhost", require("./subdomains/wuh.js").app))
+  .use(vhost("wuh.aylias.me", require("./subdomains/wuh.js").app))
+  .use(vhost("wiki.wakeuphatemusic.com", require("./subdomains/wuh.js").app))
   .listen(80);
