@@ -1,0 +1,26 @@
+.main {
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+}
+
+.sidebar {
+  display: absolute;
+  width: 20%;
+  height: 100%;
+  background-color: var(--dark-purple);
+  color: var(--silver);
+  font-family: "font";
+  margin: 0;
+  float: right;
+  border: 4px solid var(--mulberry);
+}
+
+.sidebar-content {
+  padding: 4px;
+  font-size: large;
+  border-top: 1px solid var(--mulberry);
+  border-left: 1px solid var(--mulberry);
+  border-right: 1px solid var(--mulberry);
+}

@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "font";
+  src: url("StraightToHellBB.ttf");
+}
+
+:root {
+  --silver: #c2c1c2ff;
+  --dark-purple: #42213dff;
+  --violet-jtc: #683257ff;
+  --mulberry: #bd4089ff;
+  --hollywood-cerise: #f51aa4ff;
+}
+
+body {
+  margin: 0;
+  background-color: var(--dark-purple);
+  color: var(--silver);
+  font-family: "font";
+  padding: 10px;
+}
+
+body a {
+  color: var(--hollywood-cerise);
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+body p {
+  font-size: x-large;
+}
+
+body h1 {
+  font-size: xx-large;
+}
+
+hr {
+  border: 1px solid var(--mulberry);
+  margin-top: -12px;
+  margin-bottom: -12px;
+}
