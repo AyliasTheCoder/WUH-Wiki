@@ -1,4 +1,4 @@
-git pull origin master
 :a
+git pull origin master
 node index
 goto a
