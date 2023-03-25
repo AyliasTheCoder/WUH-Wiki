@@ -3,10 +3,9 @@ const vhost = require("vhost");
 const fs = require("fs");
 const path = require("path");
 
-const dir = path.join(__dirname, "../taskify_save");
-if (!fs.existsSync(dir)) {
-  fs.mkdirSync(dir);
-}
+setTimeout(() => {
+  process.exit(0);
+}, 10 * 60 * 1000);
 
 express()
   .use(vhost("wuh.localhost", require("./subdomains/wuh.js").app))
